@@ -151,3 +151,8 @@ background: url("https://cdn.auth0.com/blog/whatabyte-portal/patio.jpeg") left
     bottom;
 background-size: cover;
 }
+.Logs {
+ background-color: ghostwhite;
+ margin: 50px;
+ padding: 20px;
+}

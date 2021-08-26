@@ -1,0 +1,17 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner Logs
+    div.Message
+      div.Title
+        h3 Logs are here
+        h1 Food For Devs
+      span.Details Access the WHATABYTE Team Portal
+    textarea#resp(name="", cols="100", rows="100" disabled=true).Logs #{logs}
+    div.NavButtons
+      a(href="/logout")
+        div.NavButton Logout
+        script.
+          setInterval(()=>{ location.reload(); },2000);
+          
